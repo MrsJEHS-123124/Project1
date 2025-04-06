@@ -1,9 +1,31 @@
-body {
-    background-color: black;
+.info-container {
+    margin: 2rem auto;
+    text-align: center;
 }
 
-.carousel {
-    max-width:600px;
-    margin:auto;
-    margin-top: 1px;
+.coin-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between columns */
+}
+
+.coin-column {
+    flex: 1;
+    max-width: 30%; /* Limit column width */
+}
+
+.coin-column img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coin-column h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.coin-column p {
+    font-size: 0.9rem;
+    color: #666;
 }
