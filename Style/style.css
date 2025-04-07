@@ -1,31 +1,28 @@
-.info-container {
-    margin: 2rem auto;
-    text-align: center;
+
+body {
+  background: linear-gradient(#0d1b2a, #b8860b);
+  color: #ffd700;
+  font-family: "P22 Declaration", serif; /* Or another patriotic font */
+  text-align: center;
 }
 
-.coin-row {
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Space between columns */
+h1,
+h2,
+h3 {
+  font-family: "American Scribe", serif; /* Giving headings that classic style */
+  color: #b8860b;
 }
 
-.coin-column {
-    flex: 1;
-    max-width: 30%; /* Limit column width */
+button {
+  background-color: #ffd700;
+  color: #0d1b2a;
+  border: 2px solid #b8860b;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.coin-column img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.coin-column h3 {
-    margin-top: 1rem;
-    color: #333;
-}
-
-.coin-column p {
-    font-size: 0.9rem;
-    color: #666;
+button:hover {
+  background-color: #b8860b;
+  color: #ffd700;
 }
