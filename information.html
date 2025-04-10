@@ -1,4 +1,4 @@
- /><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -21,7 +21,20 @@
         />
         <link rel="stylesheet" href="./styles/styles-bootstrap.css">
         <link rel="stylesheet" href="./Style/stylesZolt.css">
-    <head>
+        <style>
+            .section-title {
+                font-size: 1.2rem; /* Reduced font size for better fit */
+                line-height: 1.5; /* Adjusted line height to prevent text cutoff */
+                text-align: center; /* Center-align the title */
+                word-wrap: break-word; /* Ensure long words wrap properly */
+            }
+            .row img {
+                max-width: 100px; /* Limit image width */
+                height: auto; /* Maintain aspect ratio */
+                margin: auto; /* Center images within their columns */
+            }
+        </style>
+    </head>
     <body>
         <header class="page-header">
             <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
@@ -132,46 +145,7 @@
                         alt="Instagram pattern 6"
                     />
                 </section>
-                <hr class="opacity-25" />
-                <section class="row my-4 d-none d-sm-flex">
-                    <h2 class="section-title">Location</h2>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.234087807528!2d-96.61158714892882!3d33.05030348079657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1ae5447c4855%3A0x204b14436c5b4964!2sSouthfork%20Ranch!5e0!3m2!1sde!2sde!4v1643421591431!5m2!1sde!2sde"
-                        class="southfork-map"
-                        loading="lazy"
-                    ></iframe>
-                </section>
-            </section>
-            <!-- Button trigger modal -->
-            <a class="fixed-link-circle left" data-bs-toggle="modal" data-bs-target="#formModal">?</a>
-
-            
-            <a class="fixed-link-circle right" href="#">↑</a>
-        </main>
-        <footer class="container-fluid">
-            <div class="row text-center m-4">
-                <div class="col col-12 col-md-5 order-1">&copy; Yoga Sanctuary 2022</div>
-                <div class="col col-12 col-md-2 order-3 order-md-2">
-                    <ul class="social">
-                        <li>
-                            <a href="#">
-                                <img class="icon" src="./assets/envelope-regular.svg" alt="Envelope" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img class="icon" src="./assets/facebook-f-brands.svg" alt="Facebook" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img class="icon" src="./assets/instagram-brands.svg" alt="Instagram" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col col-12 col-md-5 order-2 order-md-3">The Institute, Floor -4, 10000.</div>
-            </div>
+               
         </footer>
 
         <script
