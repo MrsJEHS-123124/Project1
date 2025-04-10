@@ -26,4 +26,23 @@ button:hover {
   background-color: #b8860b;
   color: #ffd700;
 }
-Step_by_Step_JavaScript/0_whyJavaScript/style.css
+
+.menu, 
+.social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  grid-area: logo;
+}
+
+.social .icon {
+  height: 1rem;
+}
